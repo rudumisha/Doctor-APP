@@ -8,6 +8,26 @@
 </head>
 <body>
     
+    <h2>Формування бригади</h2>
+
+    <h3>Виберіть команди для бригади:</h3>
+    <div id="errorMessage" class="error"></div>
+
+    <!-- Перелік вибору команд -->
+    <label for="teamsSelect">Виберіть команди:</label>
+    <select id="teamsSelect" multiple size="12">
+        <!-- Список команд буде генеруватися тут -->
+    </select>
+
+    <button onclick="createBrigade()">Сформувати бригаду</button>
+
+    <h3>Бригада:</h3>
+    <div id="brigade">
+        <!-- Сформована бригада буде відображатися тут -->
+    </div>
+
+    
+
 </body>
 <script src="script.js"></script>
 </html>
